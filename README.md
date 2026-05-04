@@ -2,7 +2,7 @@
 
 ## Project Title
 **Traffic Light Decision Controller** — EEE120 Digital Design Fundamentals Final Project
-
+### Github Repository: https://github.com/UsmonMD/EEE120_Final_Project_Group_4
 ---
 
 ## Group Members
@@ -79,6 +79,7 @@ Ped_Walk   = NOT_E · P
 - AND gates: 4
 - OR gates: 4
 - **Total: 11 gates** (exceeds minimum requirement of 5)
+
 
 ### Truth Table 
 
