@@ -9,10 +9,10 @@
 
 | Name | Student ID | Role |
 |------|-----------|------|
-| [Usmon Shamirzayev] | [b251359] | Logic Designer + CircuitVerse Designer + Python Developer + Documentation Lead + Presentation Maker |
-| [Elmurodov Dilmurod] | [b250615] | Presenter |
-| [Raxmanov Ibrohim] | [b250564] | Presenter |
-| [Feruz Nasrullayev] | [b251273] | Presenter |
+| Usmon Shamirzayev | b251359 | Logic Designer + CircuitVerse Designer + Python Developer + Documentation Lead + Presentation Maker |
+| Elmurodov Dilmurod | b250615 | Presenter |
+| Raxmanov Ibrohim | b250564 | Presenter |
+| Feruz Nasrullayev | b251273 | Presenter |
 
 ---
 
