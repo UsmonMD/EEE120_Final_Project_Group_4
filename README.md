@@ -69,7 +69,7 @@ Ped_Walk   = NOT_E · P
 ```
 
 ### Priority Rules (from high to low)
-1. **Emergency (E=1)** → Always Main Green, everything else OFF
+1. **Emergency (E=1)** → Everything OFF → Intersection cleaned
 2. **Pedestrian (P=1, E=0)** → Ped Walk allowed, both roads RED
 3. **Side only (S=1, M=0, P=0, E=0)** → Side Green
 4. **Default** → Main Green (main road gets priority)
@@ -84,7 +84,7 @@ Ped_Walk   = NOT_E · P
 ### Truth Table 
 
 | M | S | P | E | MAIN | SIDE | PED |
-| - | - | - | - | ---- | ---- | --- |
+|---|---|---|---|------|------|-----|
 | 0 | 0 | 0 | 0 | 1    | 0    | 0   |
 | 0 | 0 | 0 | 1 | 0    | 0    | 0   |
 | 0 | 0 | 1 | 0 | 0    | 0    | 1   |

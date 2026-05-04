@@ -50,7 +50,7 @@ def traffic_logic(M, S, P, E):
     g2 = NOT_E & NOT_P & g1
 
     # Gate 3: Main_Green = E OR g2
-    main_green = E | g2
+    main_green = NOT_E & NOT_P & (M | NOT_S)
 
     # Gate 4: Side_Green = NOT_E AND NOT_M AND NOT_P AND S
     side_green = NOT_E & NOT_M & NOT_P & S
@@ -84,8 +84,8 @@ def display_result(M, S, P, E, main_green, side_green, ped_walk):
 
     # Explain reason
     if E:
-        print("  ⚠️  EMERGENCY OVERRIDE: Emergency vehicle detected!")
-        print("      Main road cleared. All others STOP.")
+        print("  ⚠️  EMERGENCY MODE: Emergency vehicle detected!")
+        print("      ALL SIGNALS RED. Intersection cleared.")
     elif ped_walk:
         print("  🚶 PEDESTRIAN PHASE: Pedestrian button was pressed.")
     elif side_green:
